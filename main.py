@@ -10,7 +10,7 @@ from sklearn.compose import ColumnTransformer
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error
 
-df = pd.read_csv("CAR PRICE PREDICTION MODEL/Clean Data_pakwheels.csv")
+df = pd.read_csv("Clean Data_pakwheels.csv")
 
 # df.dropna(axis=0, inplace=True)
 
